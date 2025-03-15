@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://localhost:1313"# 网站 URL 根地址。
+baseURL = "https://cookie3319.github.io/fix-hzcu"# 网站 URL 根地址。
 defaultContentLanguage = "zh-cn" #这个值决定了主题中组件和内容所使用的默认语言。 参考 语言和 i18n 部分来了解 blowfish 支持的所有语言代码。
 disableLanguages = [] #to allow translation work requiring shipping to production
 
