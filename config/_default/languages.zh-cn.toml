@@ -1,0 +1,22 @@
+languageCode = "zh-cn"
+languageName = "简体中文"
+weight = 1
+title = "这里是义务维修队！"
+
+[params]
+  displayName = "简体中文"
+  isoCode = "zh-cn"
+  rtl = false
+  dateFormat = "2006-01-02"
+  logo = "logo.png"
+  description = "这里是计算学院义务维修队！"
+
+[params.author]
+  name = "义务维修队"
+  image = "logo.png"
+  headline = "免费为同学和老师提供维修服务。"
+  bio = "免费为同学和老师提供维修服务。"
+  links = [
+    # { x-twitter = "https://x.com/burufugu" }, 
+    { github = "https://github.com/nunocoracao/blowfish" }
+  ]

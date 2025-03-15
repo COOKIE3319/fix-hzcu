@@ -1,0 +1,98 @@
+# -- Main Menu --
+# 主菜单显示在页面顶部的标题中。
+# 可接受的参数是name，pageref，page，url，title, weight。
+# 
+# 最简单的菜单配置是提供:
+#   name = 此菜单链接要显示的名称
+#   pageRef = 页面或部分的标识符链接到
+#
+# 默认情况下，按字母顺序排列菜单。这可以通过提供权重值来覆盖。然后，菜单将按重量从最低点到最高。
+
+[[main]]
+  name = "首页"
+  pageRef = "_index.zh-cn.md"
+  weight = 1
+
+[[main]]
+  name = "成员"
+  pageRef = "members"
+  weight = 2
+
+[[main]]
+  name = "服务"
+  pageRef = "service"
+  weight = 3
+
+[[main]]
+  name = "开发文档"
+  pageRef = "docs"
+  weight = 4
+
+# [[main]]
+#   name = "简码"
+#   pageRef = "docs/shortcodes"
+#   weight = 15
+
+# [[main]]
+#   name = "示例"
+#   weight = 20
+
+# [[main]]
+#   name = "功能示例"
+#   parent = "示例"
+#   pageRef = "samples"
+#   weight = 16
+
+# [[main]]
+#   name = "模板示例"
+#   parent = "示例"
+#   pageRef = "examples"
+#   weight = 30
+
+# [[main]]
+#   name = "部署指南"
+#   parent = "示例"
+#   pageRef = "guides"
+#   weight = 40
+
+# [[main]]
+#   name = "用户列表"
+#   pageRef = "users"
+#   weight = 90
+
+#[[main]]
+#  name = "Test"
+#  pageRef = "pagTest"
+#  weight = 1000
+
+# [[main]]
+#   identifier = "twitter"
+#   pre = "x-twitter"
+#   url = "https://x.com/burufugu"
+#   weight = 200
+
+#[[main]]
+#  identifier = "mastodon"
+#  pre = "mastodon"
+#  weight = 300
+#  url = "https://masto.ai/@blowfish"
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 400
+
+
+# -- Footer Menu --
+# 在版权通知之前，页面菜单显示在页面底部。根据上面的主菜单配置。
+
+#  [[footer]]
+#    name = "标签"
+#    pageRef = "tags"
+#    weight = 10
+
+#  [[footer]]
+#    name = "作者"
+#    pageRef = "authors"
+#    weight = 20

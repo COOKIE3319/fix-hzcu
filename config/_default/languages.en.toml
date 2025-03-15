@@ -1,0 +1,22 @@
+languageCode = "en"
+languageName = "English"
+weight = 2
+title = "义务维修队"
+
+[params]
+    displayName = "English"
+    isoCode = "en"
+    rtl = false
+    dateFormat = "2 January 2006"
+    logo = "logo.png"
+    description = "This is the voluntary maintenance team of the School of Computer Science!"
+
+[params.author]
+    name = "Volunteer maintenance team"
+    image = "logo.png"
+    headline = "Provide free maintenance services to students and teachers."
+    bio = "Provide free maintenance services to students and teachers."
+    links = [ 
+        { x-twitter = "https://x.com/burufugu" }, 
+        { github = "https://github.com/nunocoracao/blowfish" } 
+        ] 
