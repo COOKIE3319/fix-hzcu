@@ -13,7 +13,7 @@ description: "基于Hugo Blowfish搭建"
     <button
       id="pull-fix-button"
       class="px-4 !text-neutral !no-underline rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
-      onclick="window.open('https:/f.wps.cn/g/IN36J7jU', '_blank');"
+      onclick="window.open('https:\/\/f.wps.cn/g/IN36J7jU', '_blank');"
     >
       填写申请表
     </button>
