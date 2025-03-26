@@ -26,10 +26,10 @@ function switchHomeLayout() {
 }
 
 window.addEventListener("DOMContentLoaded", (event) => {
-  document.querySelectorAll("#switch-layout-button").forEach((button) =>
+  document.querySelectorAll("#pull-fix-button").forEach((button) =>
     button.addEventListener("click", function (e) {
       e.preventDefault();
-      switchHomeLayout();
+      window.open('https://f.wps.cn/g/IN36J7jU');
     })
   );
 });
